@@ -51,12 +51,12 @@ MONGODB_URL=your_mongodb_connection_string_here
 Start Backend Server
 ```bash
 cd backend
-npm start
+npm run dev
 ```
 Start Frontend
 ```bash
 cd ../frontend
-npm start
+npm run dev
 ```
 
 
@@ -65,11 +65,11 @@ npm start
 
 ## 📖 API Routes
 
-#### GET:	/api/books	(Fetch all books)
-#### POST:	/api/books	(Create a new book)
-#### GET:	/api/books/:id	(Fetch a single book by ID)
-#### PUT:	/api/books/:id	(Update a book by ID)
-#### DELETE:	/api/books/:id	(Delete a book by ID)
+#### GET:	 /api/books	 (Fetch all books)
+#### POST:	 /api/books	 (Create a new book)
+#### GET: 	/api/books/:id	 (Fetch a single book by ID)
+#### PUT:	 /api/books/:id 	(Update a book by ID)
+#### DELETE:	 /api/books/:id	 (Delete a book by ID)
 
 
 ---
