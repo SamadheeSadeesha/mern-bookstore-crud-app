@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Environment variables
+backend/config.js
+backend/.env
+frontend/.env
+
+# Logs & OS files
+*.log
+.DS_Store
